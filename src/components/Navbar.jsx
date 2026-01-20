@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/MambazimbiliButchery/logo.png';
 import { useCart } from "../context/CartContext";
 
 const Navbar = () => {
@@ -17,7 +16,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0">
             <img
-              src={logo}
+              src={"https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"}
               alt="Mamba Zimbili Butchery"
               className="h-14 md:h-20 w-auto object-contain"
             />

@@ -1,4 +1,3 @@
-import logo from '../assets/MambazimbiliButchery/logo.png';
 
 const Footer = () => {
   return (
@@ -6,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div>
           <div className="flex items-center gap-4 mb-4">
-            <img src={logo} alt="Mamba Zimbili" className="h-16" />
+            <img src={"https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"} alt="Mamba Zimbili" className="h-16" />
           </div>
           <p>Fresh premium cuts daily. Built for the braai masters.</p>
         </div>
