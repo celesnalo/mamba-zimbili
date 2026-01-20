@@ -11,18 +11,18 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900">
-        <div className="container mx-auto px-6 h-20 md:h-24 flex items-center">
+        <div className="container mx-auto px-6 h-20 md:h-24 flex items-center justify-between">
 
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0">
             <img
-              src={"https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"}
+              src="https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"
               alt="Mamba Zimbili Butchery"
               className="h-14 md:h-20 w-auto object-contain"
             />
           </Link>
 
-          {/* Center Navigation */}
+          {/* Center Navigation (Desktop) */}
           <ul className="hidden md:flex flex-1 justify-center items-center space-x-10 lg:space-x-14 text-orange-500 text-sm lg:text-base font-bold uppercase">
             <li><Link to="/" className="hover:text-orange-300">Home</Link></li>
             <li><Link to="/about" className="hover:text-orange-300">About</Link></li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <li><Link to="/find-store" className="hover:text-orange-300">Find Store</Link></li>
           </ul>
 
-          {/* Cart + CTA */}
+          {/* Desktop Cart + CTA */}
           <div className="hidden md:flex items-center space-x-6">
             <Link to="/cart" className="relative text-orange-500 text-2xl">
               🛒
@@ -49,13 +49,27 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Mobile Hamburger */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="ml-auto md:hidden text-orange-500 text-3xl"
-          >
-            {isOpen ? '✕' : '☰'}
-          </button>
+          {/* Mobile Actions */}
+          <div className="flex items-center space-x-4 md:hidden">
+            {/* Mobile Cart */}
+            <Link to="/cart" className="relative text-orange-500 text-2xl">
+              🛒
+              {itemCount > 0 && (
+                <span className="absolute -top-2 -right-3 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
+                  {itemCount}
+                </span>
+              )}
+            </Link>
+
+            {/* Hamburger */}
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-orange-500 text-3xl"
+              aria-label="Toggle menu"
+            >
+              {isOpen ? '✕' : '☰'}
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -76,8 +90,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="relative"
           >
-            Cart 🛒
-            {itemCount > 0 && ` (${itemCount})`}
+            Cart 🛒 {itemCount > 0 && `(${itemCount})`}
           </Link>
 
           <Link
