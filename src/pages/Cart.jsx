@@ -75,12 +75,12 @@ Payment will be made in-store.
     return (
       <div className="text-center py-20">
         <h2 className="text-3xl font-bold mb-6">Your cart is empty 🛒</h2>
-        <a
-          href="/online-store"
+        <Link
+          to="/online-store"
           className="bg-orange-500 text-white px-8 py-4 text-xl font-bold"
         >
           Add Items
-        </a>
+        </Link>
       </div>
     );
   }

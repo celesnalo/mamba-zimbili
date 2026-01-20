@@ -30,19 +30,19 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <a
-            href="/online-store"
+          <Link
+            to="/online-store"
             className="bg-orange-600 hover:bg-orange-500 px-10 py-6 text-2xl font-bold transition"
           >
             Order Now
-          </a>
+          </Link>
 
-          <a
-            href="/find-store"
+          <Link
+            to="/find-store"
             className="border-4 border-white hover:bg-white hover:text-black px-10 py-6 text-2xl font-bold transition"
           >
             Visit Us
-          </a>
+          </Link>
         </div>
       </div>
     </section>
