@@ -2,12 +2,6 @@ import { useEffect, useState } from "react";
 import Hero from '../components/Hero';
 import ProductCard from '../components/ProductCard';
 
-import image from '../assets/MambazimbiliButchery/img.jpg';
-import image1 from '../assets/MambazimbiliButchery/img1.jpg';
-import image2 from '../assets/MambazimbiliButchery/img2.jpg';
-import image5 from '../assets/MambazimbiliButchery/img5.jpg';
-import image7 from '../assets/MambazimbiliButchery/img7.jpg';
-
 const featuredProducts = [
   {
     id: 1,
@@ -34,11 +28,11 @@ const featuredProducts = [
 
 // 🔥 Slider Images
 const vibeImages = [
-  image,
-  image1,
-  image2,
-  image5,
-  image7
+  "https://img.sanishtech.com/u/eb4226dce24e61a0a76e20a49be93b21.jpg",
+  "https://img.sanishtech.com/u/3e83d5970169d72c6963cb8284d6f492.jpg",
+  "https://img.sanishtech.com/u/a63de3ccbc145c4053f56c61e7ccc4c9.jpg",
+  "https://img.sanishtech.com/u/ce9472973922ec93b4971f507dd2d030.jpg",
+  "https://img.sanishtech.com/u/22fe69ec9ce101acb05fd5652a5e1639.jpg"
 ];
 
 const Home = () => {
