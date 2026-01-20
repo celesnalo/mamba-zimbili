@@ -21,7 +21,7 @@ const featuredProducts = [
     name: "Rump Steak",
     description: "Juicy aged beef rump – braai ready",
     price: 149.99,
-    image: "https://www.shutterstock.com/shutterstock/photos/333952742/display_1500/stock-photo-fresh-raw-beef-rump-steak-on-crumpled-paper-333952742.jpg"
+    image: "https://img.sanishtech.com/u/a9e0b2b2ae63c887b96b0673d7c24993.jpg"
   },
   {
     id: 3,

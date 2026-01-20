@@ -2,16 +2,16 @@ import ProductCard from '../components/ProductCard';
 
 const products = [
   // Beef
-  { id: 1, name: "Boerewors", description: "Classic spiced", price: 89.99, category: "Beef", image: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Boerewors_raw.jpg" },
-  { id: 2, name: "Rump Steak", description: "Prime cut", price: 149.99, category: "Beef", image: "https://www.shutterstock.com/shutterstock/photos/333952742/display_1500/stock-photo-fresh-raw-beef-rump-steak-on-crumpled-paper-333952742.jpg" },
-  { id: 3, name: "T-Bone Steak", description: "Bone-in perfection", price: 179.99, category: "Beef", image: "https://t3.ftcdn.net/jpg/02/97/34/36/360_F_297343686_3w6eT5sJRVmB4QW8uIjYxNO8YROBEnV8.jpg" },
+  { id: 1, name: "Weekend-Braai", description: "Classic spiced", price: 89.99, category: "Beef", image: "https://img.sanishtech.com/u/37911c9f36566209bf11a02ff08856f1.jpg" },
+  { id: 2, name: "Full Plate", description: "Prime cut", price: 149.99, category: "Beef", image: "https://img.sanishtech.com/u/a6daec904d25fc72d4a1d1fef35e7484.jpg" },
+  { id: 3, name: "T-Bone Steak", description: "Bone-in perfection", price: 179.99, category: "Beef", image: "https://img.sanishtech.com/u/a9e0b2b2ae63c887b96b0673d7c24993.jpg" },
   
   // Chicken
   { id: 4, name: "Peri-Peri Wings", description: "Spicy marinated", price: 79.99, category: "Chicken", image: "https://assets.unileversolutions.com/recipes-v3/231301-default.png" },
-  { id: 5, name: "Whole Chicken", description: "Free-range", price: 109.99, category: "Chicken", image: "https://thumbs.dreamstime.com/b/boerewors-south-african-sausage-fresh-mint-garnish-sliced-raw-wooden-cutting-board-culinary-photo-ready-to-cook-butcher-389513908.jpg" }, // placeholder
+  { id: 5, name: "Chicken", description: "Free-range", price: 109.99, category: "Chicken", image: "https://img.sanishtech.com/u/68b9d0b80c8f5d683cb24cc85fdb6422.jpg" }, // placeholder
   
   // Braai Packs
-  { id: 6, name: "Weekend Braai Pack", description: "Boerewors + Steak + Wings", price: 399.99, category: "Packs", image: "https://static01.nyt.com/images/2016/05/25/dining/25AFRICA-slide-GENJ/25AFRICA-slide-GENJ-videoSixteenByNine3000.jpg?year=2016&h=1687&w=3000&s=40deb2c8b4858ee4fc2028bdcb3baa0c54b3da8fe917aacbe9db61439445ed3f&k=ZQJBKqZ0VN&tw=1" },
+  { id: 6, name: "Plate", description: "Boerewors + Steak + Wings", price: 399.99, category: "Packs", image: "https://img.sanishtech.com/u/37429a059efb5e596b477cef5f4a8560.jpg" },
 ];
 
 const OnlineStore = () => {

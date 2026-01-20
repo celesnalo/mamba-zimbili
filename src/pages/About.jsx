@@ -8,20 +8,21 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
         <div>
           <p className="text-xl text-gray-700 leading-relaxed mb-6">
-            Born from the heart of South African shisanyama culture, Mamba Zimbili Butchery brings you premium, fresh cuts straight from local farms. We're all about that real flame-grilled flavor — no shortcuts, just quality meat that makes every braai legendary.
+            <b>Born from the heart of South African shisanyama culture, Mamba Zimbili Butchery brings you premium, fresh cuts straight from local farms. We're all about that real flame-grilled flavor — no shortcuts, just quality meat that makes every braai legendary.</b>
           </p>
           <p className="text-xl text-gray-700 leading-relaxed">
-            From traditional boerewors to prime steaks and spicy peri-peri marinades, we hand-select every piece for tenderness and taste. Visit us or order online — we're here to fuel your next gathering.
+            <b>From traditional boerewors to prime steaks and spicy peri-peri marinades, we hand-select every piece for tenderness and taste. Visit us or order online — we're here to fuel your next gathering.</b>
           </p>
         </div>
 
-        <div className="rounded-2xl overflow-hidden shadow-2xl">
+        <div className="rounded-2xl shadow-2xl flex justify-center">
           <img 
-            src="https://blog.caterwize.co.za/wp-content/uploads/2024/03/selective-focus-of-african-american-male-butcher-i-2023-11-27-05-11-51-utc-scaled.jpg" 
+            src="https://img.sanishtech.com/u/c9df7785d04e7ef8c72834ebb0d94c81.jpg" 
             alt="Butcher preparing fresh meat"
-            className="w-full h-full object-cover"
+            className="w-auto object-contain rounded-2xl"
           />
         </div>
+
       </div>
 
       <div className="text-center">

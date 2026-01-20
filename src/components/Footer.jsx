@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-xl font-semibold mb-4">Contact</h4>
-          <p>+27660582598</p>
+          <p>+27 66 058 2598</p>
           <p>info@mambazimbili.co.za</p>
         </div>
         <div>

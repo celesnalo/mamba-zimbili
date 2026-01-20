@@ -1,4 +1,3 @@
-import heroImg from "../assets/MambazimbiliButchery/img6.jpg";
 
 const Hero = () => {
   return (
@@ -6,7 +5,7 @@ const Hero = () => {
 
       {/* Background Image */}
       <img
-        src={heroImg}
+        src={"https://img.sanishtech.com/u/f93891ce85c3f415bad05881f1d90247.jpg"}
         alt="Flame-grilled shisanyama perfection"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
