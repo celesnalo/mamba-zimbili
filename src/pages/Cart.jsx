@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
-
+import { Link } from "react-router-dom";
 const BUSINESS_WHATSAPP = "27762392923";
 
 const Cart = () => {
