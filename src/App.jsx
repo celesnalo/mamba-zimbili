@@ -13,7 +13,7 @@ import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
-    /*
+
     <Router>
       <CartProvider>
         <div className="relative min-h-screen">
@@ -34,12 +34,7 @@ function App() {
           <Footer />
         </div>
       </CartProvider>
-    </Router>*/
-    <div className="flex items-center justify-center min-h-[40vh]">
-  <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800">
-    🚧 COMING SOON 🚧
-  </h1>
-</div>
+    </Router>
 
   );
 }

@@ -11,14 +11,17 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900">
-        <div className="container mx-auto px-6 h-20 md:h-24 flex items-center justify-between">
+        <div className="container mx-auto px-6 h-20 md:h-24 flex items-center justify-between relative">
 
           {/* Logo */}
-          <Link to="/" className="flex items-center shrink-0">
+          <Link
+            to="/"
+            className="absolute left-6 top-1/2 -translate-y-1/2 z-50"
+          >
             <img
               src="https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"
               alt="Mamba Zimbili Butchery"
-              className="h-14 md:h-20 w-auto object-contain"
+              className="h-24 md:h-32 w-auto object-contain"
             />
           </Link>
 
@@ -32,14 +35,14 @@ const Navbar = () => {
 
           {/* Desktop Cart + CTA */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/cart" className="relative text-orange-500 text-2xl">
+            {/*<Link to="/cart" className="relative text-orange-500 text-2xl">
               🛒
               {itemCount > 0 && (
                 <span className="absolute -top-2 -right-3 bg-red-600 text-white text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full">
                   {itemCount}
                 </span>
               )}
-            </Link>
+            </Link> */}
 
             <Link
               to="/find-store"
@@ -52,14 +55,14 @@ const Navbar = () => {
           {/* Mobile Actions */}
           <div className="flex items-center space-x-4 md:hidden">
             {/* Mobile Cart */}
-            <Link to="/cart" className="relative text-orange-500 text-2xl">
+            {/*<Link to="/cart" className="relative text-orange-500 text-2xl">
               🛒
               {itemCount > 0 && (
                 <span className="absolute -top-2 -right-3 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
                   {itemCount}
                 </span>
               )}
-            </Link>
+            </Link> */}
 
             {/* Hamburger */}
             <button
@@ -84,14 +87,14 @@ const Navbar = () => {
           <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
           <Link to="/online-store" onClick={() => setIsOpen(false)}>Online Store</Link>
           <Link to="/find-store" onClick={() => setIsOpen(false)}>Find Store</Link>
-
+          {/*
           <Link
             to="/cart"
             onClick={() => setIsOpen(false)}
             className="relative"
           >
             Cart 🛒 {itemCount > 0 && `(${itemCount})`}
-          </Link>
+          </Link> */}
 
           <Link
             to="/find-store"

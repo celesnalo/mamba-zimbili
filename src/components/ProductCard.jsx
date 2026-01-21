@@ -34,8 +34,8 @@ const ProductCard = ({ product }) => {
         <p className="text-gray-600 mb-4">
           {product.description}
         </p>
-
-        <div className="flex justify-between items-center">
+        {/* Price and Add to Cart */}
+        {/*<div className="flex justify-between items-center">
           <span className="text-3xl font-bold text-red-900">
             R{product.price}
             <span className="text-sm font-normal"> /kg</span>
@@ -51,7 +51,7 @@ const ProductCard = ({ product }) => {
           >
             {added ? "Added ✓" : "Add to Cart"}
           </button>
-        </div>
+        </div>*/}
       </div>
     </div>
   );

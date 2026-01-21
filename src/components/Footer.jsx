@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div>
           <div className="flex items-center gap-4 mb-4">
-            <img src={"https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"} alt="Mamba Zimbili" className="h-16" />
+            <img src={"https://img.sanishtech.com/u/b0ef09744afa320ab58655ad2691c50f.png"} alt="Mamba Zimbili" className="h-24 md:h-32 w-auto object-contain" />
           </div>
           <p>Fresh premium cuts daily. Built for the braai masters.</p>
         </div>
