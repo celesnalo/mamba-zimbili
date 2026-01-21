@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Actions */}
-          <div className="flex items-center space-x-4 md:hidden">
+          <div className="flex items-center space-x-4 md:hidden ml-auto z-50">
             {/* Mobile Cart */}
             {/*<Link to="/cart" className="relative text-orange-500 text-2xl">
               🛒
