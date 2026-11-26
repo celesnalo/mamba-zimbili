@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
-const BUSINESS_WHATSAPP = "27762392923";
+const BUSINESS_WHATSAPP = "27729081133";
 
 const Cart = () => {
   const {
