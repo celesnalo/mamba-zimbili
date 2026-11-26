@@ -55,14 +55,14 @@ const Navbar = () => {
           {/* Mobile Actions */}
           <div className="flex items-center space-x-4 md:hidden ml-auto z-50">
             {/* Mobile Cart */}
-            {/*<Link to="/cart" className="relative text-orange-500 text-2xl">
+            <Link to="/cart" className="relative text-orange-500 text-2xl">
               🛒
               {itemCount > 0 && (
                 <span className="absolute -top-2 -right-3 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
                   {itemCount}
                 </span>
               )}
-            </Link> */}
+            </Link>
 
             {/* Hamburger */}
             <button
@@ -87,14 +87,14 @@ const Navbar = () => {
           <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
           <Link to="/online-store" onClick={() => setIsOpen(false)}>Online Store</Link>
           <Link to="/find-store" onClick={() => setIsOpen(false)}>Find Store</Link>
-          {/*
+          
           <Link
             to="/cart"
             onClick={() => setIsOpen(false)}
             className="relative"
           >
             Cart 🛒 {itemCount > 0 && `(${itemCount})`}
-          </Link> */}
+          </Link>
 
           <Link
             to="/find-store"
