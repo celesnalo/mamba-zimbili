@@ -35,14 +35,14 @@ const Navbar = () => {
 
           {/* Desktop Cart + CTA */}
           <div className="hidden md:flex items-center space-x-6">
-            {/*<Link to="/cart" className="relative text-orange-500 text-2xl">
+            <Link to="/cart" className="relative text-orange-500 text-2xl">
               🛒
               {itemCount > 0 && (
                 <span className="absolute -top-2 -right-3 bg-red-600 text-white text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full">
                   {itemCount}
                 </span>
               )}
-            </Link> */}
+            </Link> 
 
             <Link
               to="/find-store"
