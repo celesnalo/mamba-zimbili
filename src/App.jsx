@@ -13,7 +13,6 @@ import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
-    {
     <Router>
       <CartProvider>
         <div className="relative min-h-screen">
@@ -33,7 +32,7 @@ function App() {
           <Footer />
         </div>
       </CartProvider>
-    </Router>}
+    </Router>
 
   );
 }
